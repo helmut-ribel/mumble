@@ -3064,7 +3064,7 @@ Are you sure you wish to replace your certificate?
     <message>
         <source>Internet address of the server.</source>
         <oldsource>Internet address of the server. </oldsource>
-        <translation>آدرس های اینترنتی میزبان</translation>
+        <translation>آدرس اینترنتی سرور</translation>
     </message>
     <message>
         <source>&lt;b&gt;Address&lt;/b&gt;&lt;br/&gt;
@@ -8688,6 +8688,10 @@ An access token is a text string, which can be used as a password for very simpl
     </message>
     <message>
         <source>.flac - Lossless compressed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>.opus - Lossy compressed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

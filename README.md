@@ -5,7 +5,6 @@
 [![https://www.mumble.info](https://img.shields.io/badge/Website-https%3A%2F%2Fwww.mumble.info-blue?style=for-the-badge)](https://www.mumble.info)
 
 [![#mumble:matrix.org](https://img.shields.io/matrix/mumble:matrix.org?label=%23mumble:matrix.org&style=for-the-badge)](https://riot.im/app/#/room/#mumble:matrix.org)
-[![#mumble@freenode.net](https://img.shields.io/badge/Freenode.net-%23mumble-blue?style=for-the-badge)](https://webchat.freenode.net/#mumble)
 
 [![Codacy](https://img.shields.io/codacy/grade/262a5e20c83a40599050e22e700d8a3e?label=Codacy&style=for-the-badge)](https://app.codacy.com/manual/mumble-voip/mumble)
 [![Azure](https://img.shields.io/azure-devops/build/Mumble-VoIP/c819eb06-7b22-4ef3-bbcd-860094454eb3/1?label=Azure&style=for-the-badge)](https://dev.azure.com/Mumble-VoIP/Mumble)
@@ -114,6 +113,14 @@ murmurd [-supw <password>] [-ini <inifile>] [-fg] [v]
 
 -v      More verbose logging.
 ```
+
+#### Build and run from Docker
+
+On recent Docker versions you can build images directly from sources on GitHub:
+```
+docker build --pull -t mumble-server github.com/mumble-voip/mumble#master
+```
+Example `--pull`s each time to check for updated base image, then downloads and builds `master` branch.
 
 ### OpenGL Overlay
 

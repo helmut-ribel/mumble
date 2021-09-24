@@ -407,11 +407,11 @@ This value allows you to set the maximum number of users allowed in the channel.
     </message>
     <message>
         <source>Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>屬性</translation>
     </message>
     <message>
         <source>Channel password</source>
-        <translation type="unfinished"></translation>
+        <translation>頻道密碼</translation>
     </message>
     <message>
         <source>Maximum users</source>
@@ -419,7 +419,7 @@ This value allows you to set the maximum number of users allowed in the channel.
     </message>
     <message>
         <source>Channel name</source>
-        <translation type="unfinished"></translation>
+        <translation>頻道名稱</translation>
     </message>
     <message>
         <source>Inherited group members</source>
@@ -8720,6 +8720,10 @@ An access token is a text string, which can be used as a password for very simpl
     <message>
         <source>.flac - Lossless compressed</source>
         <translation>.flac - 無損壓縮</translation>
+    </message>
+    <message>
+        <source>.opus - Lossy compressed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
